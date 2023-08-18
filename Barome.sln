@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{F02B6B68-28FD-4DB9-B980-A33A0442229A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{F02B6B68-28FD-4DB9-B980-A33A0442229A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaromeAPI", "BaromeAPI\BaromeAPI.csproj", "{8A25387F-5F9C-4CD7-A9BA-4AE5D025C74F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{07C50C22-830E-4E6C-A0ED-1E75DDEA15D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F02B6B68-28FD-4DB9-B980-A33A0442229A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F02B6B68-28FD-4DB9-B980-A33A0442229A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F02B6B68-28FD-4DB9-B980-A33A0442229A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A25387F-5F9C-4CD7-A9BA-4AE5D025C74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A25387F-5F9C-4CD7-A9BA-4AE5D025C74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A25387F-5F9C-4CD7-A9BA-4AE5D025C74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A25387F-5F9C-4CD7-A9BA-4AE5D025C74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C50C22-830E-4E6C-A0ED-1E75DDEA15D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C50C22-830E-4E6C-A0ED-1E75DDEA15D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C50C22-830E-4E6C-A0ED-1E75DDEA15D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C50C22-830E-4E6C-A0ED-1E75DDEA15D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
