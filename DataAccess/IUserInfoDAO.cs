@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace DataAccess {
     public interface IUserInfoDAO {
         public UserInfo Get(int id);
+        public UserInfo GetByEmail(string email);
         public void Delete(int id);
         public void Create(UserInfo user);
         public void Update(UserInfo user);

@@ -25,7 +25,7 @@ namespace DataAccess.Implementation {
         }
 
         public UserInfo Login(string username, string password) {
-            throw new NotImplementedException();
+            return GetAll().FirstOrDefault(p => p.Username.Equals(username) && p.Password.Equals(password) && p.IsDeleted == (byte) Status.Available);
         }
 
         private UserInfo LoginWithUserName(string username, string password) {
@@ -35,6 +35,10 @@ namespace DataAccess.Implementation {
 
         private UserInfo LoginWithEmail(string email, string password) {
             return GetAll().FirstOrDefault(p => p.Email.Equals(email, StringComparison.OrdinalIgnoreCase) && p.IsDeleted == (byte) Status.Available);
+        }
+
+        public UserInfo GetByEmail(string email) {
+            return GetAll().FirstOrDefault(p => p.Email.Equals(email) && p.IsDeleted == (byte) Status.Available);
         }
     }
 }
